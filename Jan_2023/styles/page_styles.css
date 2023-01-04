@@ -1,0 +1,47 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    background: linear-gradient(rgba(27, 63, 255, 0.5), rgba(255,0,0,0.5));
+    transition: background-color 0.5s ease;
+    /*background-color:rgb(54, 74, 255)*/
+}
+
+.opening {
+    text-align: center;
+}
+
+.circles {
+    background-color: rgb(241, 198, 140);
+    height: 50px;
+    width: 50px;
+}
+
+div.clickEffect {
+    position:fixed;
+    box-sizing:border-box;
+    border-style:solid;
+    border-color:#ffffff;
+    border-radius:50%;
+    animation:clickEffect 0.4s ease-out;
+    z-index:99999;
+
+}
+@keyframes clickEffect {
+    0%{
+        opacity:1;
+        width:0.25em; height:0.25em;
+        margin:-0.25em;
+        border-width:0.5em;
+    }
+    100%{
+        opacity:0.2;
+        width:15em; height:15em;
+        margin:-7.5em;
+        border-width:0.03em;
+    }
+}
+
+div.clickEffect2 {
+    
+}
