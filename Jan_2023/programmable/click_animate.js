@@ -19,11 +19,3 @@ document.addEventListener('click',clickEffect);
 
 document.getElementById('Change_Color').addEventListener('click', changeBackground);
 // addEventListener('DOMContentLoaded', onLoadAnimationHandler);
-
-/**
- * Location finder
- * 
- * map features drag-n-drop feature
- * aside will show top n nearby locations based on selection bar
- * 
- */
