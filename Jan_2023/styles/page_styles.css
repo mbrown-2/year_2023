@@ -41,3 +41,11 @@ div.clickEffect {
         border-width:0.03em;
     }
 }
+
+#autocomplete {
+    border-radius: 2em;
+    padding: 0.5em;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}

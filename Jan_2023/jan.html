@@ -9,11 +9,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" href="./styles/page_styles.css">
-        <script defer src="./programmable/click_animate.js"></script>
-        <script src="./programmable/fading.js"></script>
+        <script async defer id="autocomplete-api" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initAutocomplete"></script>
 
-        <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"></script>
+        <!-- Styles -->
+        <link rel="stylesheet" href="./styles/page_styles.css">
+
+        <script defer src="./programmable/click_animate.js"></script>
+        <script defer src="./programmable/searchbar.js"></script>
+        <script defer src="./programmable/fading.js"></script>
+
+        
     </head>
 
     <body>
@@ -53,7 +58,7 @@
         <!-- Keep invisible until Get Started button clicked. Fade-in + slight zoom-in from back of page to front. -->
         <div class="main_frame" id="main_frame">
             <header>
-                
+                <input id="autocomplete" placeholder="Enter a place" type="text" />
             </header>
             <aside>
                 <!-- List of outputs -->
