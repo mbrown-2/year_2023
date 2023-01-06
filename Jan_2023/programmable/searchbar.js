@@ -23,4 +23,4 @@ function onPlaceChanged() {
     }
 }
 
-alert(PLACES_AUTOCOMPLETE_APIKEY);
+alert(process.env.HELLO_TEST);
